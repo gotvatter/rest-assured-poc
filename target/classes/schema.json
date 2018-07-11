@@ -1,0 +1,54 @@
+{
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "id": {
+      "$id": "/properties/id",
+      "type": "integer",
+      "title": "The Id Schema ",
+      "default": 0,
+      "examples": [
+        1
+      ]
+    },
+    "question": {
+      "$id": "/properties/question",
+      "type": "string",
+      "title": "The Question Schema ",
+      "default": "",
+      "examples": [
+        "What is your favorite color?"
+      ]
+    },
+    "options": {
+      "$id": "/properties/options",
+      "type": "array",
+      "items": {
+        "$id": "/properties/options/items",
+        "type": "object",
+        "properties": {
+          "id": {
+            "$id": "/properties/options/items/properties/id",
+            "type": "integer",
+            "title": "The Id Schema ",
+            "default": 0,
+            "examples": [
+              1
+            ]
+          },
+          "value": {
+            "$id": "/properties/options/items/properties/value",
+            "type": "string",
+            "title": "The Value Schema ",
+            "default": "",
+            "examples": [
+              "Red"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

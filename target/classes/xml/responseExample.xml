@@ -1,0 +1,4 @@
+<foo xmlns:ns="http://localhost/">
+    <bar>sudo </bar>
+    <ns:bar>make me a sandwich!</ns:bar>
+</foo>

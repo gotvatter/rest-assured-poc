@@ -1,0 +1,22 @@
+{
+  "id": 16,
+  "question": "Which country gave America the Statue of Liberty?",
+  "options": [
+    {
+      "id": 55,
+      "value": "Canada"
+    },
+    {
+      "id": 56,
+      "value": "France"
+    },
+    {
+      "id": 57,
+      "value": "Germany"
+    },
+    {
+      "id": 58,
+      "value": "England"
+    }
+  ]
+}
